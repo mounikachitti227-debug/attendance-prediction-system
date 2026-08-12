@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance Prediction System</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Attendance Prediction</h1>
+
+    <label>Total Classes Held:</label>
+    <input type="number" id="total">
+
+    <label>Classes Attended:</label>
+    <input type="number" id="attended">
+
+    <label>Required Attendance (%):</label>
+    <input type="number" id="required" value="75">
+
+    <label>Classes Still Remaining:</label>
+    <input type="number" id="remaining">
+
+    <button onclick="calculate()">Calculate Attendance</button>
+
+    <div id="result"></div>
+
+    <div id="recommendation"></div>
+
+</div>
+
+<script src="script10.js"></script>
+
+</body>
+</html>
