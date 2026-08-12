@@ -1,0 +1,15 @@
+.recommendation-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f2f2f2;
+    border-radius: 10px;
+    line-height: 1.8;
+}
+
+.safe {
+    font-weight: bold;
+}
+
+.danger {
+    font-weight: bold;
+}
